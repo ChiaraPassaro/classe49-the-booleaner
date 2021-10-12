@@ -1,0 +1,106 @@
+html {
+  font-size: 100%;
+}
+body {
+  /* background-color: red; */
+  margin: 0;
+}
+p {
+  font-size: 1.2em;
+}
+.width-30 {
+  width: 30%;
+}
+
+/* header */
+.header {
+  /* height: 90px; */
+  background-color: #4EA0FF;
+  background-image: url(../img/pattern.png);
+  background-size: 30%;
+  /* background-repeat: no-repeat; */
+}
+.logo {
+  height: 80px;
+  margin: 2%;
+}
+
+/* main */
+main {
+  margin: 2%;
+}
+
+/* info article */
+h1.main-title {
+  margin: 0.2em 0;
+}
+h2.main-author-info {
+  margin: 0.2em 0;
+  font-size: 1em;
+  color: gray;
+}
+.author {
+  color: lightblue;
+}
+.main-date {
+  font-size: 0.8em;
+  color: gray;
+}
+
+/* photo gallery */
+.main-photo-gallery {
+  margin: 2em 0;
+}
+.main-photo-gallery img {
+  /* width: 100%; */
+  max-width: 100%;
+}
+.main-photo-gallery .caption {
+  font-size: 0.7em;
+  line-height: 1.3em;
+}
+
+/* content */
+.highlight {
+  background-color: yellow;
+}
+.content ul {
+  /* padding: 0 0 0 0.9em; */
+  margin-left: -1.8em;
+}
+.content table {
+  text-align: left;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+.content thead {
+  background-color: blue;
+  color: white;
+}
+.row-odd {
+  background-color: lightblue;
+}
+
+/* other articles */
+.other-articles-item {
+  width: 20%;
+  height: 200px;
+  margin-bottom: 1em;
+  background-color: red;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.other-articles-item p {
+  padding: 10px;
+}
+.other-articles-item a {
+  text-decoration: none;
+  color: white;
+}
+#graph{
+  background-image: url(../img/graph.jpg);
+}
+#monitor {
+  background-image: url(../img/monitor.jpg);
+}
