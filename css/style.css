@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
   font-size: 100%;
 }
@@ -104,3 +110,17 @@ h2.main-author-info {
 #monitor {
   background-image: url(../img/monitor.jpg);
 }
+
+
+/* nuove regole */
+/* span {
+  display: block;
+  width: 30%;
+  height: 80px;
+  padding: 20px;
+  background-color: red;
+}
+
+img {
+  vertical-align: middle;
+} */
